@@ -2,3 +2,24 @@ baseURL = 'https://github.com/lilobein/practical-mospolitech_Fefelova.git'
 languageCode = 'ru-ru'
 title = 'Проектная деятельность. Фефелова Диана Викторовна 241-361'
 theme = 'ananke'
+
+[menu]
+  [[menu.main]]
+    name = "Главная"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "О проекте"
+    url = "/about/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Участники"
+    url = "/team/"
+    weight = 3
+
+  [[menu.main]]
+    name = "Журнал"
+    url = "/posts/"
+    weight = 4
